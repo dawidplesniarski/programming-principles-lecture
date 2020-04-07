@@ -1,47 +1,13 @@
 package com.company.dawidplesniarski;
 
 
-import com.company.dawidplesniarski.solid.dependencyinversion.BadMood;
-import com.company.dawidplesniarski.solid.dependencyinversion.MoodLogic;
-
 public class Main {
-
     public static void main(String[] args) {
-        BadMood badMood = new BadMood();
-        MoodLogic moodLogic = new MoodLogic();
-        MoodLogic.doSomething(badMood);
+
     }
 }
 
 // TODO: Tutaj zostały umieszczone zakomentowane wywołania metod
-
-//interface Mood{
-//    void writeSomething();
-//}
-//class GoodMood implements Mood{
-//    @Override
-//    public void writeSomething() {
-//        System.out.println("I have good mood! 😁");
-//    }
-//}
-//class BadMood implements Mood{
-//    @Override
-//    public void writeSomething() {
-//        System.out.println("I have bad mood! 😥");
-//    }
-//}
-//class ScaredMood implements Mood{
-//    @Override
-//    public void writeSomething() {
-//        System.out.println("I'm scared! 🙀");
-//    }
-//}
-//class MoodLogic{
-//    static void doSomething(Mood mood){
-//        mood.writeSomething();
-//    }
-//}
-
 
 //        PersonValidator validator = new PersonValidator();
 //        AdultPerson person = new AdultPerson("Jan","Kowalski","asdf3#gmai.com",17);
@@ -97,3 +63,7 @@ public class Main {
 //    Pizzeria pizzeria = new Pizzeria();
 //        Pizza pizza = new Pizza(PizzaType.Margerita);
 //        pizzeria.newPizza(pizza);
+
+//    BadMood badMood = new BadMood();
+//        MoodLogic moodLogic = new MoodLogic();
+//        MoodLogic.doSomething(badMood);
