@@ -1,23 +1,20 @@
 package com.company.dawidplesniarski;
 
-import com.company.dawidplesniarski.demeter.Pizza;
-import com.company.dawidplesniarski.demeter.PizzaType;
-import com.company.dawidplesniarski.demeter.Pizzeria;
-import com.company.dawidplesniarski.drycode.Vehicle;
-import com.company.dawidplesniarski.solid.EngineType;
-import com.company.dawidplesniarski.solid.liskov.DoSomethingWithCollection;
 
-import java.util.*;
-import java.util.zip.DataFormatException;
+import com.company.dawidplesniarski.solid.dependencyinversion.BadMood;
+import com.company.dawidplesniarski.solid.dependencyinversion.MoodLogic;
 
 public class Main {
 
     public static void main(String[] args) {
-        Pizzeria pizzeria = new Pizzeria();
-        Pizza pizza = new Pizza(PizzaType.Margerita);
-        pizzeria.newPizza(pizza);
+        BadMood badMood = new BadMood();
+        MoodLogic moodLogic = new MoodLogic();
+        MoodLogic.doSomething(badMood);
     }
 }
+
+// TODO: Tutaj zostały umieszczone zakomentowane wywołania metod
+
 //interface Mood{
 //    void writeSomething();
 //}
@@ -97,3 +94,6 @@ public class Main {
 //    }
 //}
 
+//    Pizzeria pizzeria = new Pizzeria();
+//        Pizza pizza = new Pizza(PizzaType.Margerita);
+//        pizzeria.newPizza(pizza);
