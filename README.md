@@ -7,7 +7,7 @@
 The lecture covers the subjects 
 * S.O.L.I.D
 * DRY - Don't Repeat Yourself
-* KISS - Keep It Simple (Stupid)
+* KISS - Keep It Simple
 * Demeter law
 * Code Smell (bad practices)
 
